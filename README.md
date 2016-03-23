@@ -17,7 +17,7 @@ In this lesson we will show a practical strategy for adjusting layout wrappers a
 
 ### Alternating Wrapper Measurement
 
-Some of your website visitors will be viewing your website on large displays such as big desktop computers or smart tvs, others might be viewing your website on small tablets and mobile devices. For this reason we might want to adjust our wrapper size to change between fluid for smaller devices to fixed for larger devices. For example a common strategy is to make a layour center and stay within a fixed pixel size on large screens that way our content doesn't get stretched out to wide, yet on smaller devices we may want to switch to a liquid (fluid) size using percents so our content will squish and expand on many different small and medium size devices taking up the maximum amount of space available. Let's look at some example code,
+Some of your website visitors will be viewing your website on large displays such as big desktop computers or smart tvs, others might be viewing your website on small tablets and mobile devices. For this reason we might want to adjust our wrapper size to change between fluid for smaller devices to fixed for larger devices. For example a common strategy is to make a layour center and stay within a fixed pixel size on large screens that way our content doesn't get stretched out too wide, yet on smaller devices we may want to switch to a liquid (fluid) size using percents so our content will squish and expand on many different small and medium size devices taking up the maximum amount of space available. Let's look at some example code,
 
 #### Desktop Down
 
@@ -101,3 +101,5 @@ In the code above on line 2 we are setting the default size of our column elemen
 - [Mobile First Responsive Layout - Code Example](http://jsfiddle.net/flatiron_school/jERBH/5/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-layout' title='Responsive Layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
