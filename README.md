@@ -69,7 +69,7 @@ Another common issue we battle when building responsive sites is handling multi-
 }
 ```
 
-In the code above on line 2 we are setting the default size of our column element to `33.333%` wide and `float: left` to get a three column layout. Then on line 8 we are changing the column size to `100%` of the screen width and `float: none` on line 9 when the screen size gets below 600px. This creates a single column on smaller devices 600px and below.
+In the code above on line 2 we are setting the default size of our column element to `33.333%` wide and `float: left` to get a three column layout. Then on line 8 we are changing the column size to `100%` of the screen width and setting `float: none` on line 9 when the screen size gets below 600px. This creates a single column on smaller devices 600px and below.
 
 #### Mobile Up (Mobile First)
 
@@ -87,7 +87,7 @@ In the code above on line 2 we are setting the default size of our column elemen
 }
 ```
 
-In the code above on line 2 we are setting the default size of our column element to `100%` wide and `float: none` to get a single column layout. Then on line 8 we are changing the column size to `33.333%` of the screen width and `float: left` on line 9 when the screen size gets above 600px. This creates a multi column layout on larger devices 600px and above.
+In the code above on line 2 we are setting the default size of our column element to `100%` wide and `float: none` to get a single column layout. Then on line 8 we are changing the column size to `33.333%` of the screen width and setting `float: left` on line 9 when the screen size gets above 600px. This creates a multi column layout on larger devices 600px and above.
 
 ## Summary
 
@@ -103,3 +103,5 @@ In the code above on line 2 we are setting the default size of our column elemen
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-layout' title='Responsive Layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/responsive-layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
