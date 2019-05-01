@@ -11,10 +11,10 @@ layout for desktops, with only a few queries?
 
 ## Objectives
 
-1. Construct alternate wrapper sizes between fixed and fluid layouts
+1. Construct alternative wrapper sizes between fixed and fluid layouts
 2. Construct adjustable column properties for different screen sizes
 
-## Construct Alternate Wrapper Sizes Between Fixed and Fluid Layouts
+## Construct alternative Wrapper Sizes Between Fixed and Fluid Layouts
 
 One common way to handle this adjustment in CSS is to use a _wrapper_ class, one
 class that wraps any and all core content of our site.  If we want to make
@@ -52,7 +52,7 @@ flexibility to shrink to fit on smaller screens.
 In the opposite direction, a design concept that is becoming more and more
 prevalent is making a website for the smaller screen _first_, then adding in
 media queries to handle larger and larger screen sizes.  The previous example,
-reversed, would look like the following on when following the _mobile up_ design
+reversed, would look like the following when using the _mobile up_ design
 pattern.
 
 ```css
