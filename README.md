@@ -1,6 +1,11 @@
 # Constructing a Responsive Layout
 
-## Problem Statement
+## Learning Goals
+
+- Construct alternative wrapper sizes between fixed and fluid layouts.
+- Construct adjustable column properties for different screen sizes.
+
+## Introduction
 
 Some of your website visitors will be viewing your website on large displays,
 such as big desktop computers or smart TVs; others might be viewing your website
@@ -8,11 +13,6 @@ on small tablets and mobile devices. We want our website to look good on either,
 and we can use media queries to do just that. How can we set our website up to
 automatically switch between, say a _fluid_ layout for mobile devices and a _fixed_
 layout for desktops, with only a few queries?
-
-## Objectives
-
-1. Construct alternative wrapper sizes between fixed and fluid layouts
-2. Construct adjustable column properties for different screen sizes
 
 ## Construct alternative Wrapper Sizes Between Fixed and Fluid Layouts
 
@@ -70,7 +70,7 @@ element to 90% width of the screen size, so it will grow and shrink
 automatically. Then on line 6 we are changing the wrapper size to a fixed 960px
 when the screen size gets above 980px.
 
-## Construct Adjustable Column Properties for Different Screen Sizes 
+## Construct Adjustable Column Properties for Different Screen Sizes
 
 One common issue we battle when building responsive sites is handling
 multi-column layouts on smaller devices. On a large screen, having 3 columns
@@ -142,5 +142,3 @@ will help keep your layouts flexible and usable on a multitude of devices.
 
 - [Desktop Down Responsive Layout - Code Example](http://jsfiddle.net/flatiron_school/jERBH/4/)
 - [Mobile First Responsive Layout - Code Example](http://jsfiddle.net/flatiron_school/jERBH/5/)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/responsive-layout'>Responsive Layout</a> on Learn.co and start learning to code for free.</p>
